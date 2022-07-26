@@ -187,7 +187,7 @@ define('JSON_PRETTY_PRINT', 100);
  * $value = $json->decode($input);
  * </code>
  */
-if(!class_exists('Services_JSON')) {
+if(!class_exists('__Services_JSON')) {
 	class __Services_JSON
 	{
 	   /**

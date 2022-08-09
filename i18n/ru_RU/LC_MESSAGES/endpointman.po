@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: 2.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-26 19:47-0400\n"
-"PO-Revision-Date: 2022-08-09 09:19+0500\n"
+"PO-Revision-Date: 2022-08-09 16:30+0500\n"
 "Last-Translator: Dmitriy Q <dmitry@atsip.ru>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/fpbxcn/"
 "endpointman/ru_RU/>\n"
@@ -379,10 +379,13 @@ msgstr "Исполнительный путь для Астериск"
 msgid ""
 "Auth name for the Extension (change the X after acc with your line number)"
 msgstr ""
+"Имя аутентификации для вн.номера (замените X после acc на номер вашей линии)"
 
 #: page.epm_placeholders.php:103
 msgid "Auth name for the Extension (most likely the endpoint extension number)"
 msgstr ""
+"Имя аутентификации для вн.номера (скорее всего, это внутренний номер "
+"конечной точки)"
 
 #: page.epm_placeholders.php:387
 #: views/epm_advanced/oui_manager.views.grid.php:25
@@ -499,11 +502,11 @@ msgstr "Завершено"
 
 #: page.epm_placeholders.php:373
 msgid "Config File Placeholder Values"
-msgstr ""
+msgstr "Значения расположения файла конфигурации"
 
 #: endpointman.i18n.php:18 views/rnav.php:8
 msgid "Config File Placeholders"
-msgstr ""
+msgstr "Расположение файла конфигурации"
 
 #: Endpointman.class.php:152
 msgid ""
@@ -537,7 +540,7 @@ msgstr "Обнаружена ошибка при копировании! Инс�
 #: Endpointman_Config.class.php:1064
 #, php-format
 msgid "Creating Directory Structure for Brand '%s' and Moving Files..."
-msgstr ""
+msgstr "Создание структуры каталогов для бренда '%s' и перемещение файлов..."
 
 #: Endpointman_Config.class.php:985
 msgid "Creating EPM temp directory"
@@ -549,11 +552,11 @@ msgstr "Создаётся временная EPM директория..."
 
 #: Endpointman_Advanced.class.php:1014
 msgid "Creating Provisioner Directory... "
-msgstr ""
+msgstr "Создание каталога Provisioner... "
 
 #: views/epm_devices_main.page.php:457
 msgid "Current Managed Extensions"
-msgstr ""
+msgstr "Текущие управляемые внутр.номера"
 
 #: Endpointman_Templates.class.php:28
 msgid "Current Templates"
@@ -592,19 +595,19 @@ msgstr "Список устройств"
 
 #: views/epm_templates/editor.views.template.php:187
 msgid "Device's Description in FreePBX (Usually the Full Name)"
-msgstr ""
+msgstr "Описание устройства во FreePBX (обычно полное имя)"
 
 #: views/epm_templates/editor.views.template.php:190
 msgid "Device's Mac Address"
-msgstr ""
+msgstr "MAC-адрес устройства"
 
 #: views/epm_templates/editor.views.template.php:191
 msgid "Device's Model"
-msgstr ""
+msgstr "Модель устройства"
 
 #: views/epm_templates/editor.views.template.php:186
 msgid "Device's Username (usually the extension)"
-msgstr ""
+msgstr "Имя пользователя устройства (обычно это внутр.номер)"
 
 #: Endpointman_Devices.class.php:26
 msgid "Devices"
@@ -628,7 +631,7 @@ msgstr "Отключить резервирование конфигурацио
 
 #: views/epm_advanced_settings.page.php:420
 msgid "Disable Endpoint Manager Conflict Warning"
-msgstr ""
+msgstr "Отключить предупреждение о конфликтах в Endpoint Manager"
 
 #: views/epm_advanced_settings.page.php:607
 msgid "Disable TFTP Server Check"
@@ -640,17 +643,19 @@ msgstr "Отключить подсказки"
 
 #: page.epm_placeholders.php:139
 msgid "Display name for the Extension (The Name of the Extension"
-msgstr ""
+msgstr "Отображаемое имя для внутр.номера (Имя внутр.номера"
 
 #: page.epm_placeholders.php:235
 msgid ""
 "Display name for the Extension (The Name of the Extension (change the X "
 "after acc with your line number)"
 msgstr ""
+"Отображаемое имя для внутр.номера (Имя внутр.номера (замените X после acc на "
+"номер вашей линии))"
 
 #: views/epm_templates/editor.views.template.php:45
 msgid "Display:"
-msgstr ""
+msgstr "Отображение:"
 
 #: Endpointman_Advanced.class.php:938 Endpointman_Advanced.class.php:953
 #: Endpointman_Advanced.class.php:1011 Endpointman_Advanced.class.php:1016
@@ -673,11 +678,11 @@ msgstr "Загрузить обновлённые релизы с "
 #: lib/epm_system.class.php:168 lib/epm_system.class.php:198
 #, php-format
 msgid "Downloading %s ..."
-msgstr ""
+msgstr "Загрузка %s ..."
 
 #: Endpointman_Config.class.php:992
 msgid "Downloading Brand JSON..... "
-msgstr ""
+msgstr "Загрузка JSON бренда..... "
 
 #: Endpointman_Config.class.php:1001
 msgid "Downloading Brand Package..."
@@ -693,11 +698,11 @@ msgstr "Редактировать"
 
 #: views/epm_templates/editor.views.template.php:82
 msgid "Edit File Configurations"
-msgstr ""
+msgstr "Редактирование файлов конфигураций"
 
 #: views/epm_templates/editor.views.template.php:73
 msgid "Edit Global Settings Overrides"
-msgstr ""
+msgstr "Редактирование переопределений глобальных настроек"
 
 #: Endpointman_Config.class.php:82
 msgid "Enable"
@@ -727,19 +732,23 @@ msgstr "Менеджер абонентских устройств"
 
 #: views/rnav.php:39
 msgid "Endpoint Manager"
-msgstr ""
+msgstr "Endpoint Manager"
 
 #: views/epm_advanced_settings.page.php:191
 msgid ""
 "Enter a admin password for your phones. Must be 6 characters and only "
 "nummeric is recommendet!"
 msgstr ""
+"Введите пароль администратора для ваших телефонов. Должно быть 6 символов и "
+"рекомендуются только цифры!"
 
 #: views/epm_advanced_settings.page.php:215
 msgid ""
 "Enter a user password for your phones. Must be 6 characters and only "
 "nummeric is recommendet!"
 msgstr ""
+"Введите пароль пользователя для ваших телефонов. Должно быть 6 символов, "
+"рекомендуется использовать только цифры!"
 
 #: provisioning/p.php:33 provisioning/p.php:128
 msgid "Error 403 Forbidden"
@@ -777,7 +786,7 @@ msgstr "Ошибка!"
 
 #: Endpointman_Config.class.php:1256 lib/epm_system.class.php:200
 msgid "Error: "
-msgstr ""
+msgstr "Ошибка: "
 
 #: Endpointman_Advanced.class.php:921 Endpointman_Advanced.class.php:995
 #: Endpointman_Advanced.class.php:1148
@@ -790,15 +799,17 @@ msgid ""
 "Error: Aborting Brand Downloads. Can't Get Master File, Assuming Timeout "
 "Issues!"
 msgstr ""
+"Ошибка: Прерывание загрузки бренда. Не удается получить мастер-файл, "
+"предполагается проблема с тайм-аутом!"
 
 #: Endpointman_Advanced.class.php:914 Endpointman_Advanced.class.php:987
 #: Endpointman_Advanced.class.php:1138
 msgid "Error: Can Not Find Uploaded Files!"
-msgstr ""
+msgstr "Ошибка: Невозможно найти загруженные файлы!"
 
 #: Endpointman_Config.class.php:1026
 msgid "Error: Can't Find Downloaded File!"
-msgstr ""
+msgstr "Ошибка: Невозможно найти загруженный файл!"
 
 #: Endpointman_Config.class.php:281 Endpointman_Config.class.php:321
 msgid "Error: Command not found!"
@@ -807,38 +818,38 @@ msgstr "Ошибка: команда не найдена!"
 #: Endpointman_Config.class.php:987
 #, php-format
 msgid "Error: Failed to create the directory '%s', please Check Permissions!"
-msgstr ""
+msgstr "Ошибка: Не удалось создать каталог '%s', проверьте права доступа!"
 
 #: Endpointman_Advanced.class.php:1157
 #, php-format
 msgid "Error: File %s size is 0!"
-msgstr ""
+msgstr "Ошибка: Размер файла %s равен 0!"
 
 #: Endpointman_Advanced.class.php:1035
 msgid "Error: File Temp no Exists!"
-msgstr ""
+msgstr "Ошибка: временный файл отсутствует!"
 
 #: Endpointman_Advanced.class.php:1095
 msgid "Error: ID Package send not valid, brand not exist!"
-msgstr ""
+msgstr "Ошибка: Отправка ID пакета недействительна, бренд не существует!"
 
 #: Endpointman_Config.class.php:1038
 msgid "Error: Installing brands is disabled while in repo mode!"
-msgstr ""
+msgstr "Ошибка: Установка брендов отключена в режиме репо!"
 
 #: Endpointman_Advanced.class.php:1204
 #, php-format
 msgid "Error: Invalid Brand Specified on line %d!"
-msgstr ""
+msgstr "Ошибка: Неверно указан бренд для линии %d!"
 
 #: Endpointman_Advanced.class.php:1198
 #, php-format
 msgid "Error: Invalid Extension Specified on line %d!"
-msgstr ""
+msgstr "Ошибка: Неверно указан внутр.номер для линии %d!"
 
 #: Endpointman_Advanced.class.php:977 Endpointman_Advanced.class.php:1038
 msgid "Error: Invalid File Extension!"
-msgstr ""
+msgstr "Ошибка: Неверное расширение файла!"
 
 #: Endpointman_Config.class.php:1298
 #, php-format
@@ -1115,7 +1126,7 @@ msgstr ""
 #: page.epm_placeholders.php:317 page.epm_placeholders.php:323
 #: page.epm_placeholders.php:329 page.epm_placeholders.php:335
 msgid "Grandstream"
-msgstr ""
+msgstr "Grandstream"
 
 #: views/epm_advanced_manual_upload.page.php:97
 msgid "Heads up!"
@@ -1435,17 +1446,17 @@ msgstr "Модель"
 #: views/epm_templates/manager.views.grid.php:26
 #: views/epm_templates/rnav.php:18
 msgid "Model Classification"
-msgstr ""
+msgstr "Классификация моделей"
 
 #: views/epm_templates/editor.views.rnav.php:19
 #: views/epm_templates/manager.views.grid.php:27
 #: views/epm_templates/rnav.php:19
 msgid "Model Clone"
-msgstr ""
+msgstr "Клонирование модели"
 
 #: views/epm_devices_main.page.php:246 views/epm_devices_main.page.php:469
 msgid "Model of Phone"
-msgstr ""
+msgstr "Модель телефона"
 
 #: Endpointman_Config.class.php:1269
 #, php-format
@@ -1713,15 +1724,15 @@ msgstr ""
 
 #: views/epm_advanced_settings.page.php:342
 msgid "Path location ARP."
-msgstr ""
+msgstr "Путь расположения ARP."
 
 #: views/epm_advanced_settings.page.php:366
 msgid "Path location Asterisk."
-msgstr ""
+msgstr "Путь расположения Asterisk."
 
 #: views/epm_advanced_settings.page.php:318
 msgid "Path location NMAP."
-msgstr ""
+msgstr "Путь расположения NMAP."
 
 #: views/epm_advanced_settings.page.php:167
 msgid "Path location root TFTP server."
@@ -1733,15 +1744,15 @@ msgstr "Путь....."
 
 #: views/epm_advanced_settings.page.php:179
 msgid "Phone Admin Password"
-msgstr ""
+msgstr "Пароль администратора телефона"
 
 #: views/epm_advanced_settings.page.php:203
 msgid "Phone User Password"
-msgstr ""
+msgstr "Пароль пользователя телефона"
 
 #: page.epm_placeholders.php:388
 msgid "Placeholder"
-msgstr ""
+msgstr "Место размещения"
 
 #: Endpointman.class.php:145
 msgid "Please change the location:"
@@ -1750,6 +1761,7 @@ msgstr "Пожалуйста измените расположение:"
 #: page.epm_devices.php:34
 msgid "Please create /tftpboot, even if you won't use it"
 msgstr ""
+"Пожалуйста, создайте /tftpboot, даже если вы не будете его использовать"
 
 #: Endpointman_Advanced.class.php:967
 msgid "Please name the Package the same name as your brand!"
@@ -1757,19 +1769,19 @@ msgstr "Пожалуйста назовите  пакет аналогично �
 
 #: views/epm_devices_main.page.php:1173
 msgid "Please select a Brand and/or Model"
-msgstr ""
+msgstr "Пожалуйста, выберите бренд и/или модель"
 
 #: views/epm_devices_main.page.php:1214
 msgid "Please select a model"
-msgstr ""
+msgstr "Пожалуйста, выберите модель"
 
 #: views/epm_devices_main.page.php:1184
 msgid "Please select a product"
-msgstr ""
+msgstr "Пожалуйста, выберите продукт"
 
 #: views/epm_devices_main.page.php:1186 views/epm_devices_main.page.php:1216
 msgid "Please select a template"
-msgstr ""
+msgstr "Пожалуйста, выберите шаблон"
 
 #: page.epm_placeholders.php:91
 msgid "Prints the line Number of the mapped extension"
@@ -1970,11 +1982,11 @@ msgstr ""
 
 #: views/epm_templates/editor.views.dialog.cfg.global.php:170
 msgid "Server NTP..."
-msgstr ""
+msgstr "Сервер NTP..."
 
 #: views/epm_templates/editor.views.dialog.cfg.global.php:42
 msgid "Server PBX..."
-msgstr ""
+msgstr "Сервер АТС..."
 
 #: views/epm_templates/editor.views.template.php:189
 msgid "Server Port For Line 1"
@@ -2012,63 +2024,75 @@ msgstr "Показать"
 
 #: page.epm_placeholders.php:181
 msgid "Shows you if you are using rport"
-msgstr ""
+msgstr "Показывает, используете ли вы rport"
 
 #: page.epm_placeholders.php:271
 msgid ""
 "Shows you if you are using rport (change the X after acc with your line "
 "number)"
 msgstr ""
+"Показывает, используете ли вы rport (замените X после acc на номер вашей "
+"линии)"
 
 #: page.epm_placeholders.php:217
 msgid "Shows you if you have enabled encryption"
-msgstr ""
+msgstr "Показывает, включено ли шифрование"
 
 #: page.epm_placeholders.php:307
 msgid ""
 "Shows you if you have enabled encryption (change the X after acc with your "
 "line number)"
 msgstr ""
+"Показывает, включено ли шифрование (замените X после acc на номер вашей "
+"линии)"
 
 #: page.epm_placeholders.php:187
 msgid "Shows you if you have enabled media encryption"
-msgstr ""
+msgstr "Показывает, включено ли у шифрование мультимедиа"
 
 #: page.epm_placeholders.php:277
 msgid ""
 "Shows you if you have enabled media encryption (change the X after acc with "
 "your line number)"
 msgstr ""
+"Показывает, включено ли у шифрование мультимедиа (замените X после acc на "
+"номер вашей линии)"
 
 #: page.epm_placeholders.php:193 page.epm_placeholders.php:223
 msgid "Shows you if you use SIP or PJSIP"
-msgstr ""
+msgstr "Показывает, используете ли вы SIP или PJSIP"
 
 #: page.epm_placeholders.php:283
 msgid ""
 "Shows you if you use SIP or PJSIP (change the X after acc with your line "
 "number)"
 msgstr ""
+"Показывает, используете ли вы SIP или PJSIP (замените X после acc на номер "
+"вашей линии)"
 
 #: page.epm_placeholders.php:199
 msgid "Shows you your prefered transport protocol"
-msgstr ""
+msgstr "Показывает предпочитаемый транспортный протокол"
 
 #: page.epm_placeholders.php:289
 msgid ""
 "Shows you your prefered transport protocol (change the X after acc with your "
 "line number)"
 msgstr ""
+"Показывает предпочитаемый транспортный протокол (замените X после acc на "
+"номер вашей линии)"
 
 #: page.epm_placeholders.php:163 page.epm_placeholders.php:169
 msgid "Shows your Extension number you are using"
-msgstr ""
+msgstr "Показывает ваш внутренний номер, который вы используете"
 
 #: page.epm_placeholders.php:241 page.epm_placeholders.php:259
 msgid ""
 "Shows your Extension number you are using (change the X after acc with your "
 "line number)"
 msgstr ""
+"Показывает ваш внутренний номер, который вы используете (замените X после "
+"acc на номер вашей линии)"
 
 #: page.epm_placeholders.php:157
 msgid "Shows your Protocol your extension is using"
@@ -2097,7 +2121,7 @@ msgstr "Извините, сейчас поддерживается только
 #: page.epm_placeholders.php:322 page.epm_placeholders.php:346
 #: page.epm_placeholders.php:358
 msgid "Static"
-msgstr ""
+msgstr "Статический"
 
 #: views/epm_advanced_iedl.page.php:87
 msgid "Structure"
@@ -2142,7 +2166,7 @@ msgstr "Закладка неверная!"
 
 #: Endpointman_Devices.class.php:57 Endpointman_Templates.class.php:111
 msgid "Tab not found!"
-msgstr ""
+msgstr "Таблица не найдена!"
 
 #: views/epm_devices_main.page.php:249 views/epm_devices_main.page.php:472
 msgid "Template"
